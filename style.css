@@ -6,21 +6,27 @@
 
 /* Nav Bar */
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 ul {
     display: flex;
     list-style: none;
     justify-content: flex-end;
+    ;
 }
 
 ul li:nth-child(1),
 ul li:nth-child(2) {
     font-size: 18px;
-    margin: 20px 20px;
+    margin: 20px 15px;
 }
 
 ul li:nth-child(3),
 ul li:nth-child(4) {
-    margin: 15px 20px;
+    margin: 15px 20px 0 10px;
 }
 
 /* Google Logo */
@@ -48,16 +54,18 @@ ul li:nth-child(4) {
     margin: auto;
     position: relative;
     top: 100px;
+
 }
 
 .search-container img {
     display: block;
     /* margin: auto; */
     position: absolute;
-    top: 119px;
+    top: 115px;
     z-index: 1;
     right: 29%;
     /* top: 100%; */
+    
 }
 
 input[type=text] {

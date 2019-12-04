@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+body {
+    height: 100vh;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+
+}
+
 /* Nav Bar */
 
 a {
@@ -11,21 +19,34 @@ a {
     color: black;
 }
 
-ul {
+nav ul {
     display: flex;
     list-style: none;
     justify-content: flex-end;
     ;
 }
 
-ul li:nth-child(1),
-ul li:nth-child(2) {
+#nav-left ul {
+    list-style: none;
+    display: inline-block;
+    position: absolute;
+    width: 50%;    
+}
+
+#store {
+    position: absolute;
+    top: 20px;
+    left: 80px;
+}
+
+nav ul li:nth-child(1),
+nav ul li:nth-child(2) {
     font-size: 18px;
     margin: 20px 15px;
 }
 
-ul li:nth-child(3),
-ul li:nth-child(4) {
+nav ul li:nth-child(3),
+nav ul li:nth-child(4) {
     margin: 15px 20px 0 10px;
 }
 
@@ -53,6 +74,7 @@ ul li:nth-child(4) {
     display: block;
     margin: auto;
     position: relative;
+    /* min-width: 500px; */
     top: 100px;
     box-shadow: 1px 1px rgba(126, 121, 121, 0.075), -1px -1px rgba(128, 121, 121, 0.027);
 
@@ -89,3 +111,52 @@ input[type=text] {
     left: 29%;
     top: 118px;
 }
+
+/* feeling lucky and google search buttons */
+
+.two-buttons {
+    padding: 10px;
+    font-size: 19px;
+    border-radius: 5px;
+    position: relative;
+    top: 140px;
+    left: 38%;
+    margin-left: 20px;
+    background: rgba(230, 229, 229, 0.418);
+    box-shadow: none;
+}
+
+
+#footer-nav {
+    position: absolute;
+    background: rgba(230, 229, 229, 0.418);
+    bottom: 0;
+    width: 100%;
+    list-style: none;
+    padding: 15px;
+}
+
+#footer-nav li {
+    margin: 0 20px 0 20px;
+    display: inline-block;
+    line-height: 25px;
+}
+
+#privacy {
+    position: relative;
+    left: 55%;
+}
+
+#terms {
+    position: relative;
+    left: 55%;
+}
+
+#settings {
+    position: relative;
+    left: 55%;
+}
+
+#footer-nav li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.582);

@@ -54,6 +54,7 @@ ul li:nth-child(4) {
     margin: auto;
     position: relative;
     top: 100px;
+    box-shadow: 1px 1px rgba(126, 121, 121, 0.075), -1px -1px rgba(128, 121, 121, 0.027);
 
 }
 

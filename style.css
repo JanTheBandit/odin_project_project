@@ -70,5 +70,13 @@ input[type=text] {
 }
 
 .search-container input[type=text] {
-    padding-left: 40px;
+    padding-left: 60px;
+}
+
+#search {
+    display: block;
+    position: absolute;
+    /* border: red 5px solid; */
+    left: 29%;
+    top: 118px;
 }

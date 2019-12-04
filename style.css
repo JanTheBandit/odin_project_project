@@ -127,6 +127,14 @@ input[type=text] {
     color: rgba(0, 0, 0, 0.637);
 }
 
+input[type=button] {
+    outline-width: 0;
+}
+
+input[type=button]:active {
+    outline-width: 3px;
+    outline-color: rgba(0, 0, 0, 0.335);
+}
 
 #footer-nav {
     position: absolute;
